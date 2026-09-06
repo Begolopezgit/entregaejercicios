@@ -18,7 +18,7 @@ todoslosLi.forEach((element, i) => {
   //doy estilos al enlace a para situar icono y texto alineado
   element.innerHTML = `
     <a href="#"style="display: flex; align-items: flex-start; margin-top: 3px; flex-shrink: 0;">
-      <img class="elemento" src="ej3-iconos/sin_check.svg" alt="" />
+      <img class="elemento" src="./images/ej3-iconos/sin_check.svg" alt="" />
     </a>
     ${listado[i]}
   `;
@@ -52,7 +52,7 @@ botAnade.addEventListener("click", function (e) {
     console.log(element);
     element.innerHTML = `
     <a href="#"style="display: flex; align-items: flex-start; margin-top: 3px; flex-shrink: 0;">
-      <img class="elemento" src="src/sass/assets/images/ej3-iconos/sin_check.svg" alt="" />
+      <img class="elemento" src="./images/ej3-iconos/sin_check.svg" alt="" />
     </a>
     ${listado[i]}`;
     document.querySelector("textarea").value = "";
