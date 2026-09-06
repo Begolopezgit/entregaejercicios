@@ -1,0 +1,1 @@
+import"./main-CTKah4lz.js";let o=document.getElementById("textoAContar"),c=document.querySelector(".numPalabras"),u=document.querySelector(".numCaracteres"),e=0,a=0,r=[],l=0;o.addEventListener("input",n=>{r.push(n.target.value),l=r.at(-1);let t=l.trim().split(/\s+/);a=t.length,c.textContent=a,e=t.join("").length,u.textContent=e});

@@ -1,0 +1,1 @@
+import"./main-CTKah4lz.js";let t=document.querySelector("button"),n=document.getElementById("numC"),e=0;t.style.width="20%";t.style.minWidth="150px";t.addEventListener("click",function(l){e+=1,n.textContent=`Clic: ${e}`});

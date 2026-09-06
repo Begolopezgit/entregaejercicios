@@ -1,0 +1,1 @@
+import"./main-CTKah4lz.js";let t=document.querySelector("button");t.style.width="20%";t.style.minWidth="150px";t.addEventListener("click",function(d){const o=Math.floor(Math.random()*256),e=Math.floor(Math.random()*256),n=Math.floor(Math.random()*256);let r=document.querySelector("body");r.style.backgroundColor=`rgb(${o},${e},${n})`});
