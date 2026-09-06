@@ -10,8 +10,8 @@ let botLimpia = document.querySelector(".limpiaCompletadas");
 let elUlLista = document.querySelector("ul.lista");
 let contenedor = document.querySelector(".contenedor9");
 
-const rutaSinCheck = "./images/ej9-iconos/sin_check.svg";
-const rutaConCheck = "./images/ej9-iconos/con_check.svg";
+const rutaSinCheck = "/entregaejercicios/images/ej9-iconos/sin_check.svg";
+const rutaConCheck = "/entregaejercicios/images/ej9-iconos/con_check.svg";
 
 let listaTareas = [];
 let listaTareasSiCheck = [];
@@ -40,7 +40,7 @@ function pintaTareaEnDom(texto) {
   nwLi.style.marginTop = "15px"; //espacio entre tareas
   nwLi.innerHTML = `
       <a href="#" style="display: flex; align-items: flex-start; margin-top: 3px; flex-shrink: 0;">
-          <img class="check" src="./images/ej9-iconos/sin_check.svg" alt="" />
+          <img class="check" src="/entregaejercicios/images/ej9-iconos/sin_check.svg" alt="" />
         </a>
         <span>${texto}</span>`; //dentro de span para aplicar bien estilo
 

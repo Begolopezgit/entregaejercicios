@@ -18,7 +18,7 @@ todoslosLi.forEach((element, i) => {
   //doy estilos al enlace a para situar icono y texto alineado
   element.innerHTML = `
     <a href="#"style="display: flex; align-items: flex-start; margin-top: 3px; flex-shrink: 0;">
-      <img class="elemento" src="./images/ej3-iconos/sin_check.svg" alt="" />
+      <img class="elemento" src="/entregaejercicios/images/ej3-iconos/sin_check.svg" alt="" />
     </a>
     ${listado[i]}
   `;
@@ -43,7 +43,7 @@ botAnade.addEventListener("click", function (e) {
   e.preventDefault();
   let newTarea = text_usu.value;
   listado.push(newTarea); //añado nueva tarea a listado
-  elUlLista = document.querySelector("ul.lista");
+  let elUlLista = document.querySelector("ul.lista");
   let newLi = document.createElement("li"); //creo nuevo li
   aplicarEstilos(newLi);
   elUlLista.appendChild(newLi); //añado nuevo li al ul
@@ -52,7 +52,7 @@ botAnade.addEventListener("click", function (e) {
     console.log(element);
     element.innerHTML = `
     <a href="#"style="display: flex; align-items: flex-start; margin-top: 3px; flex-shrink: 0;">
-      <img class="elemento" src="./images/ej3-iconos/sin_check.svg" alt="" />
+      <img class="elemento" src="/entregaejercicios/images/ej3-iconos/sin_check.svg" alt="" />
     </a>
     ${listado[i]}`;
     document.querySelector("textarea").value = "";
